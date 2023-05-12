@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+height: 100vh;
+      display: flex;
+      flex-direction: column;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.main-title {
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  color: lightblue;
+  letter-spacing: 1px;
+  font-size: 55px;
+  font-weight: 400;
+}
+.cup-card-container {
+  flex: 1;
+  padding: 0px 60px;
+ 
+}
+.cup-card-wrapper {
+  height: 20%;
+    padding-bottom: 15px;
+}
+.cup-card {
+background-color: white;
+  height: 100%;
+  border-radius: 20px;
+  padding: 0px 40px;
+  display: flex;
+  align-items: center;
+  min-height: 125px;
+}
+.circle-space {
+  width: 200px;
+}
+.cup-card-section {
+  
+  height: 100%;
+  flex:1;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  
+
+}
+.img-wrapper {
+  height: 100%;
+  width: 150px;
+  padding: 5px;
+}
+.circle-space {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: orangered;
+}
+.card-sub-title {
+  color: lightslategrey;
+  margin-left: 50px;
+  font-weight: 500;
+  font-size: 40px;
+}
+.img-wrapper {
+  height: 100%;
+}
